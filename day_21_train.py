@@ -8,7 +8,7 @@ import pickle
 df = pd.read_csv("students.csv")
 
 #features&target
-x = df[["Math", "Science"]]
+x = df[["Math", "Science","English","Attendance"]]
 y = df["Result"]
 
 #split data
