@@ -33,9 +33,9 @@ if st.button("Predict Result"):
     pred = model.predict(data)
 
     if pred[0]==1:
-        st.success("student will pass ✅")
+        st.success("student is pass ✅")
     else:
-        st.error("Sorry! student will fail ❌. Better luck next time.")
+        st.error("Sorry! student is fail ❌. Better luck next time.")
     prob = model.predict_proba(data)
     st.write(f"Probability of passing: {prob[0][1]*100:.2f}%")
 
@@ -43,7 +43,7 @@ if st.button("Predict Result"):
 st.markdown("---")
 st.caption("Created by [Ahmad Afnan]")
 
-
+ 
 
 
 
