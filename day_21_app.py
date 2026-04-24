@@ -6,7 +6,7 @@ import pickle
 st.set_page_config(page_title="Student mark predictor",page_icon= "📚",layout="centered")
 
 st.title("Student Result Prediction App")
-st.write("This app predicts whether a student will pass or fail based on their marks in Math and Science. Enter the marks and click the predict button to see the result.")
+st.write("This app predicts whether a student will pass or fail based on their marks in Math, Science,English,Attendance. Enter the marks and click the predict button to see the result.")
 
 
 
